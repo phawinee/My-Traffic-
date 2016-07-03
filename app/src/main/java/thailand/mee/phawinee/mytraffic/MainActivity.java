@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 Intent intent = new Intent(MainActivity.this, DateilActivity.class);
-                intent.putExtra("name", nameStrings[position]);
+                intent.putExtra("Name", nameStrings[position]);
                 intent.putExtra("Icon", icInts[position]);
                 intent.putExtra("Index", position);
                 startActivity(intent);
