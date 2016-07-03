@@ -92,9 +92,11 @@ public class MainActivity extends AppCompatActivity {
             }   //onItemClick
         });
 
-
-
-
     }   //main methood
+
+    @Override
+    public void onBackPressed() {
+       // super.onBackPressed();
+    }
 }   //main Class นี่คือคลาสหลัก
 
