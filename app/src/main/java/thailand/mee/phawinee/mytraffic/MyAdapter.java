@@ -46,7 +46,7 @@ public class MyAdapter extends BaseAdapter{
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
     //poen service
-        LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.Lv1AYOUT_INFLATER_SERVICE);
+        LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View view1 = layoutInflater.inflate(R.layout.my_listview, viewGroup, false);
 
         //bind widget
